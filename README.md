@@ -42,9 +42,3 @@ Dealing with the pagination is the trickiest part here, because the API returns 
 
 For UI, I'm using [Ant Design](https://ant.design) components and applied some inline CSS for styling.
 
-## My Experience About This Interview
-The process is great, this is a good assignment for skill testing. Maybe there are some things about the OpenAPI that need to be considered, such as it can't be accessed via https protocol. In Heroku implementation, Heroku App will automatically block any non-https requests. So the app demo will not be run smoothly in Heroku App.
-
-I also notice that the search suggestions only make sense if the years at the end of every data is omitted or cut, because results won't come up if the years still exist there. When we delete the years, the results will immediately come up, therefore showing results as expected by the user when they select or choose an autocomplete suggestions.  This is just my opinion on the user experience.
-
-Thank you for this interview.
